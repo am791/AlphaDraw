@@ -1,19 +1,27 @@
-# Pictionary
+## AlphaDraw by LITgroup
+The **AlphaDraw** is a web application, which is a recreation purpose multiplayer digital pictionary game. It consists of a few rounds in which, in every round someone has to draw their chosen word and others have to guess it to gain points.
 
-This app is an exercise in Node.js and Socket.io. It contains the following features:
+Broadly, the game will comprise of the following:
+- It is a multiplayer game in which a maximum of 10 participants will be allowed at a time. 
+- The players can enter their names upon joining. Their names would appear in a dynamic rank list on the left side of the screen along with the points.
+- The players will get consecutive turns while drawing. The turn number is decided by the order in which they join the game, i.e. the one who joins first is the first one to draw.
+- There would be a dropdown menu for selecting the Number of rounds and the Time set for each turn at the beginning of the game. 
+- Only one person is allowed to draw at a particular time, and the rest of the players would guess the word, in the provided time, in the chat box.
+- No points would be awarded to a player on failure of guessing the word within the time limit.
+- In place of the alphabets of the word, blank spaces would be visible. As hints, one or more alphabets may pop up in these spaces if  none of the guessers are able to guess for a long duration.
 
-- A prompt for a user to enter a nickname. The first user to enter is designated as the drawer, subsequent users are guessers.
+Let’s have a look at the various rights that the players will have:
 
-- The drawer is able to draw on the canvas and all other users can view the drawing.
+***Painter:***
+- A Painter will have an option for choosing one out of 3 random words generated. 7 seconds will be given for making this choice, beyond which, the computer will itself choose one word for the painter.
+- After making the choice, he/she would have to draw on the whiteboard provided so that the guessers can guess the word correctly.
+- An option of a pen would be available to start the drawing. He can further choose the ink size and colour according to the need. In addition to this, there would be an option of a paint bucket tool, to fill the colour.
+- An eraser would be provided just in case the painter wishes to erase anything. In addition to this, there would be an option to clear the whiteboard, if the painter decides to restart his drawing. No extra time would be provided in such a case.
+- He would be further provided with an option to draw basic shapes like rectangle, triangle, oval, etc. , to simplify his task.
+- A painter would be restricted to write anything in the chat box while drawing.
 
-- Users can submit guesses, which will be displayed on all players' screens.
-
-- When the correct guess is made, the app will announce the name of the guesser, who will then be designated as the next drawer.
-
-- The drawer can also designate a different drawer by double clicking their user name in the Player list.
-
-- If the drawer disconnects, a random user on the Player list will be designated as the new drawer.
-
-- A youtube video is included in the game to provide a basic tutorial on how to draw objects.
-
-- A color palette allows the drawer to change the color of the pen, and the palette includes a 'clear' button to clear the canvas.
+***Guesser:***
+- The guessers can guess and chat throughout the game in the chat box on the right hand side of the screen.
+- The wrong guesses would be visible to all the participants but the correctly guessed words would be hidden. Everyone would be notified with a message in the chat box, “X has guessed the word!” whenever someone guesses the word correctly.
+- The one who first guesses it correctly would be awarded with maximum points and others would follow subsequently.
+- The painter’s points would depend upon the number of correct guesses of his word by other participants.
