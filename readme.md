@@ -34,4 +34,4 @@ Let’s have a look at the various rights that the players will have:
 - The above command will run the software on a localhost. Use the provided localhost link in any browser and play the game
 
 ## Refrence Github project
-- https://github.com/helenphan0
+- https://github.com/helenphan0/pictionary
