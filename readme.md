@@ -1,4 +1,4 @@
-## AlphaDraw by LITgroup
+## AlphaDraw
 The **AlphaDraw** is a web application, which is a recreation purpose multiplayer digital pictionary game. It consists of a few rounds in which, in every round someone has to draw their chosen word and others have to guess it to gain points.
 
 Broadly, the game will comprise of the following:
