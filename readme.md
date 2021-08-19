@@ -26,12 +26,38 @@ Let’s have a look at the various rights that the players will have:
 - The one who first guesses it correctly would be awarded with maximum points and others would follow subsequently.
 - The painter’s points would depend upon the number of correct guesses of his word by other participants.
 
-## How to run the project
-- Clone the project
-- On cmd, run the command: npm install
-- The above command will download all the required node modules
-- Now come the main directory and run: node server.js
-- The above command will run the software on a localhost. Use the provided localhost link in any browser and play the game
+
+### How to run the project:
+- Clone the project.
+- Open the Command prompt(cmd) and set the directory to the cloned project. Run the command: 
+  ``` npm install ```
+  The above command will download all the node modules required for the project to run.
+- Now from the cloned directory run: 
+  ``` node server.js ```
+  The above command will run the software on a localhost.
+- Use the provided localhost link in any browser and play the game.
+
+## Scrrenshots of the Project
+
+> Enter Game 
+
+![Enter Game](https://github.com/am791/AlphaDraw/blob/master/Screenshots/enter-game.PNG)
+
+> Painter
+
+![Painter](https://github.com/am791/AlphaDraw/blob/master/Screenshots/painter.PNG)
+
+> Guesser
+
+![Guesser](https://github.com/am791/AlphaDraw/blob/master/Screenshots/guesser.PNG)
+
+> Correct Guess
+
+![Correct Guess](https://github.com/am791/AlphaDraw/blob/master/Screenshots/correct-guess.PNG)
+
+> New Painter
+
+![New Painter](https://github.com/am791/AlphaDraw/blob/master/Screenshots/new-painter.PNG)
 
 ## Refrence Github project
 - https://github.com/helenphan0/pictionary
